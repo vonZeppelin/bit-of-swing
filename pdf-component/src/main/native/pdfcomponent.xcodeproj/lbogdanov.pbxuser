@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	0614C6BE1349F70700EA5903 /* PDFComponent.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 350}}";
+			sepNavSelRange = "{219, 0}";
+			sepNavVisRange = "{0, 341}";
+			sepNavWindowFrame = "{{176, 180}, {750, 558}}";
+		};
+	};
+	0614C6BF1349F70700EA5903 /* PDFComponent.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {895, 1066}}";
+			sepNavSelRange = "{1219, 0}";
+			sepNavVisRange = "{1901, 545}";
+			sepNavWindowFrame = "{{177, 66}, {1075, 712}}";
+		};
+	};
+	0614C7DF134A0BD800EA5903 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C7E0134A0BD800EA5903 /* com_jsyphon_SyphonClientHook.c */;
+		name = "com_jsyphon_SyphonClientHook.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 0;
+	};
+	0614C7E0134A0BD800EA5903 /* com_jsyphon_SyphonClientHook.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = com_jsyphon_SyphonClientHook.c;
+		path = /Users/lbogdanov/Downloads/com_jsyphon_SyphonClientHook.c;
+		sourceTree = "<absolute>";
+	};
+	0614C7E4134A0BD800EA5903 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C7E5134A0BD800EA5903 /* jawt.h */;
+		name = "jawt.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 3102;
+	};
+	0614C7E5134A0BD800EA5903 /* jawt.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = jawt.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Headers/jawt.h;
+		sourceTree = "<absolute>";
+	};
+	0614C7E6134A0BD800EA5903 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C7E7134A0BD800EA5903 /* jawt_md.h */;
+		name = "jawt_md.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	0614C7E7134A0BD800EA5903 /* jawt_md.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = jawt_md.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Headers/jawt_md.h;
+		sourceTree = "<absolute>";
+	};
+	0614C7E8134A0BD800EA5903 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C7E9134A0BD800EA5903 /* JDWP.h */;
+		name = "JDWP.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 1071;
+	};
+	0614C7E9134A0BD800EA5903 /* JDWP.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JDWP.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Headers/JDWP.h;
+		sourceTree = "<absolute>";
+	};
+	0614C7EA134A0BD800EA5903 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C7EB134A0BD800EA5903 /* AWTCocoaComponent.h */;
+		name = "AWTCocoaComponent.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	0614C7EB134A0BD800EA5903 /* AWTCocoaComponent.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AWTCocoaComponent.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Headers/AWTCocoaComponent.h;
+		sourceTree = "<absolute>";
+	};
+	06972793134C7A0E0002C657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 06972794134C7A0E0002C657 /* JNFAutoreleasePool.h */;
+		name = "JNFAutoreleasePool.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	06972794134C7A0E0002C657 /* JNFAutoreleasePool.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JNFAutoreleasePool.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAutoreleasePool.h;
+		sourceTree = "<absolute>";
+	};
+	06972795134C7A0E0002C657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 06972796134C7A0E0002C657 /* JavaNativeFoundation.h */;
+		name = "JavaNativeFoundation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 110;
+	};
+	06972796134C7A0E0002C657 /* JavaNativeFoundation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JavaNativeFoundation.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JavaNativeFoundation.h;
+		sourceTree = "<absolute>";
+	};
+	06972797134C7A0E0002C657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 06972798134C7A0E0002C657 /* JNFAssert.h */;
+		name = "JNFAssert.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 397;
+	};
+	06972798134C7A0E0002C657 /* JNFAssert.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JNFAssert.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFAssert.h;
+		sourceTree = "<absolute>";
+	};
+	06972799134C7A0E0002C657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0697279A134C7A0E0002C657 /* JNFJObjectWrapper.h */;
+		name = "JNFJObjectWrapper.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 804;
+		vrLoc = 0;
+	};
+	0697279A134C7A0E0002C657 /* JNFJObjectWrapper.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JNFJObjectWrapper.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJObjectWrapper.h;
+		sourceTree = "<absolute>";
+	};
+	069727B1134C7EB60002C657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 069727B2134C7EB60002C657 /* JNFJNI.h */;
+		name = "JNFJNI.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 11860;
+	};
+	069727B2134C7EB60002C657 /* JNFJNI.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = JNFJNI.h;
+		path = /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Headers/JNFJNI.h;
+		sourceTree = "<absolute>";
+	};
+	06C083441374363C0021A7E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C6BE1349F70700EA5903 /* PDFComponent.h */;
+		name = "PDFComponent.h: 13";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 0;
+	};
+	06C083451374363C0021A7E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C6BF1349F70700EA5903 /* PDFComponent.m */;
+		name = "PDFComponent.m: 13";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 0;
+	};
+	06C083461374363C0021A7E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0614C6BF1349F70700EA5903 /* PDFComponent.m */;
+		name = "PDFComponent.m: 13";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 742;
+		vrLoc = 1902;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 89D0F1C90F3B704E007831A7 /* pdfcomponent */;
+		addToTargets = (
+			89D0F04F0F393AD9007831A7 /* Compile Native */,
+		);
+		codeSenseManager = 89D0F2CF0F40E7A1007831A7 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					637,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					749,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					689,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					709,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326382891;
+			PBXWorkspaceStateSaveDate = 326382891;
+		};
+		perUserProjectItems = {
+			0614C7DF134A0BD800EA5903 /* PBXTextBookmark */ = 0614C7DF134A0BD800EA5903 /* PBXTextBookmark */;
+			0614C7E4134A0BD800EA5903 /* PBXTextBookmark */ = 0614C7E4134A0BD800EA5903 /* PBXTextBookmark */;
+			0614C7E6134A0BD800EA5903 /* PBXTextBookmark */ = 0614C7E6134A0BD800EA5903 /* PBXTextBookmark */;
+			0614C7E8134A0BD800EA5903 /* PBXTextBookmark */ = 0614C7E8134A0BD800EA5903 /* PBXTextBookmark */;
+			0614C7EA134A0BD800EA5903 /* PBXTextBookmark */ = 0614C7EA134A0BD800EA5903 /* PBXTextBookmark */;
+			06972793134C7A0E0002C657 /* PBXTextBookmark */ = 06972793134C7A0E0002C657 /* PBXTextBookmark */;
+			06972795134C7A0E0002C657 /* PBXTextBookmark */ = 06972795134C7A0E0002C657 /* PBXTextBookmark */;
+			06972797134C7A0E0002C657 /* PBXTextBookmark */ = 06972797134C7A0E0002C657 /* PBXTextBookmark */;
+			06972799134C7A0E0002C657 /* PBXTextBookmark */ = 06972799134C7A0E0002C657 /* PBXTextBookmark */;
+			069727B1134C7EB60002C657 /* PBXTextBookmark */ = 069727B1134C7EB60002C657 /* PBXTextBookmark */;
+			06C083441374363C0021A7E1 /* PBXTextBookmark */ = 06C083441374363C0021A7E1 /* PBXTextBookmark */;
+			06C083451374363C0021A7E1 /* PBXTextBookmark */ = 06C083451374363C0021A7E1 /* PBXTextBookmark */;
+			06C083461374363C0021A7E1 /* PBXTextBookmark */ = 06C083461374363C0021A7E1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 89D0F2CE0F40E7A1007831A7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	89D0F04F0F393AD9007831A7 /* Compile Native */ = {
+		activeExec = 0;
+	};
+	89D0F1C90F3B704E007831A7 /* pdfcomponent */ = {
+		activeExec = 0;
+	};
+	89D0F2CE0F40E7A1007831A7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	89D0F2CF0F40E7A1007831A7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
