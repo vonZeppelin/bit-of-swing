@@ -5,7 +5,7 @@
 	<artifactId>text-fields</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
-	<name>Skype-like text fileds</name>
+	<name>Skype-like text fields</name>
 	<description>Skypish text components for Swing</description>
 	<developers>
 	   <developer>
