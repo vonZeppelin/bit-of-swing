@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://bit-of-swing.googlecode.com/files/" href="pdf-component.jnlp" version="0.1">
+	<information>
+		<title>PDFComponent demo application</title>
+		<vendor>Leonid Bogdanov (leonid_bogdanov@mail.ru)</vendor>
+		<offile-allowed />
+	</information>
+	<update check="background" policy="prompt-update" />
+	<security>
+	   <all-permissions />
+	</security>
+	<resources os="Mac" arch="x86_64">
+		<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se" />
+		<jar href="pdf-component-0.1.jar" main="true" />
+		<nativelib href="native-lib-0.1.jar"/>
+	</resources>
+	<application-desc main-class="org.lbogdanov.swing.DemoApp" />
+</jnlp>
