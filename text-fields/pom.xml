@@ -28,6 +28,31 @@
                     <target>1.5</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.2.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>org.lbogdanov.swing.DemoApp</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+            <plugin> 
+                <groupId>org.apache.maven.plugins</groupId> 
+                <artifactId>maven-jar-plugin</artifactId> 
+                <version>2.3.1</version> 
+                <configuration> 
+	                <archive> 
+	                    <addMavenDescriptor>false</addMavenDescriptor> 
+	                </archive> 
+                </configuration> 
+            </plugin>
         </plugins>
     </build>
     <repositories>
