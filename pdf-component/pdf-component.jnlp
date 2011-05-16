@@ -9,7 +9,7 @@
 	<security>
 	   <all-permissions />
 	</security>
-	<resources os="Mac" arch="x86_64">
+	<resources os="Mac">
 		<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se" />
 		<jar href="pdf-component-0.1.jar" main="true" />
 		<nativelib href="native-lib-0.1.jar"/>
