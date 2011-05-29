@@ -37,7 +37,7 @@ import com.jidesoft.swing.OverlayableUtils;
  * @see javax.swing.Action
  * @author Leonid Bogdanov
  */
-public class ClearTextAction extends AbstractAction {
+class ClearTextAction extends AbstractAction {
 
     private JTextComponent component;
 

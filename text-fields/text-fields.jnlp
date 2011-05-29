@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="http://bit-of-swing.googlecode.com/files/" href="text-fields.jnlp" version="0.1">
+<jnlp spec="1.0+" codebase="http://bit-of-swing.googlecode.com/files/" href="text-fields.jnlp" version="0.2">
 	<information>
 		<title>Skype-like text fields demo app</title>
 		<vendor>Leonid Bogdanov (leonid_bogdanov@mail.ru)</vendor>
@@ -8,7 +8,7 @@
 	<update check="background" policy="prompt-update" />
 	<resources>
 		<j2se version="1.5+" href="http://java.sun.com/products/autodl/j2se" />
-		<jar href="text-fields-0.1.jar" main="true" />
+		<jar href="text-fields-0.2.jar" main="true" />
 	</resources>
 	<application-desc main-class="org.lbogdanov.swing.DemoApp" />
 </jnlp>

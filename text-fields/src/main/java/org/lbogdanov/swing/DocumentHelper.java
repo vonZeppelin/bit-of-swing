@@ -34,21 +34,10 @@ import com.jidesoft.swing.Overlayable;
  * @see Overlayable
  * @author Leonid Bogdanov
  */
-public final class DocumentHelper implements DocumentListener {
+final class DocumentHelper implements DocumentListener {
 
     private JTextComponent component;
     private Overlayable overlayable;
-
-    /**
-     * Installs a listener of document events to the specified <code>JTextComponent</code> component and then
-     * refreshes visibility of the specified <code>Overlayable</code> upon their delivery.
-     * 
-     * @param component the <code>JTextComponent</code> to listen to events of
-     * @param overlayable the <code>Overlayable</code> to refresh visibility of
-     */
-    public static void install(JTextComponent component, Overlayable overlayable) {
-        component.getDocument().addDocumentListener(new DocumentHelper(component, overlayable));
-    }
 
     /**
      * {@inheritDoc}
@@ -69,7 +58,7 @@ public final class DocumentHelper implements DocumentListener {
         refreshOverlayableVisibility();
     }
 
-    private DocumentHelper(JTextComponent component, Overlayable overlayable) {
+    DocumentHelper(JTextComponent component, Overlayable overlayable) {
         this.component = component;
         this.overlayable = overlayable;
         refreshOverlayableVisibility();

@@ -34,13 +34,13 @@ import net.miginfocom.swing.MigLayout;
 
 /**
  * Class <code>DemoApp</code> contains the entry point of a demo application.
- * This application demonstrates creation of "Skypish" text and password fields: a button to quickly clear a field
+ * This application demonstrates the creation of "Skypish" text and password fields: a button to quickly clear a field
  * will appear if a field has got some content.
  * <p>
  * JIDE-OSS Swing library and its <code>Overlayable</code> components are used to implement such fields.
  * 
  * @author Leonid Bogdanov
- * @version 0.1
+ * @version 0.2
  */
 public class DemoApp {
 
@@ -57,49 +57,40 @@ public class DemoApp {
 
             public void run() {
                 JTextComponent textField;
-                DefaultOverlayable overlayable;
+                JComponent overlayable;
                 final JFrame frame = new JFrame("Skype-like text fields demo app");
                 frame.setLayout(new MigLayout("wrap 2", "[]15[130::, fill, grow]",
                                               "5[]unrel[]rel[]20[]unrel[]rel[]20:push[]5"));
 
                 frame.add(new TitledSeparator("Text fields"), "span 2, grow");
 
-                // 1. Create an instance of the special subclass of JTextField from JIDE-OSS library (enables usage of
-                // Overlayable stuff)
+                // create an instance of a corresponding subclass of the JTextField from JIDE-OSS library
                 textField = new OverlayTextField("Example text");
-                // 2. Create a concrete instance of Overlayable, provide a component to be overlayed on top of
-                // the actual component and its position
-                overlayable = new DefaultOverlayable(textField, new JideButton(new ClearTextAction(textField)),
-                                                     SwingConstants.EAST);
-                // 3. Bind helper class with the text filed and the Overlayable instance
-                DocumentHelper.install(textField, overlayable);
+                // call TextFieldUtils.addClearButton() to create a concrete instance of Overlayable and a button
+                // to be overlayed on top of the actual component (its position depends on component's orientation)
+                overlayable = TextFieldUtils.addClearButton(textField);
                 frame.add(new JLabel("RTL text field"));
-                // 4. Instance of the Overlayable class must be actually added to a Container! (not a text field itself)
+                // component returned by TextFieldUtils.addClearButton() must be actually added to a container!
+                // (not the text field itself)
                 frame.add(overlayable);
 
                 // code below is similar to the code described above...
                 textField = new OverlayTextField();
-                overlayable = new DefaultOverlayable(textField, new JideButton(new ClearTextAction(textField)),
-                                                     SwingConstants.WEST);
                 textField.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
-                DocumentHelper.install(textField, overlayable);
+                overlayable = TextFieldUtils.addClearButton(textField);
                 frame.add(new JLabel("LTR text field"));
                 frame.add(overlayable);
 
                 frame.add(new TitledSeparator("Password fields"), "span 2, grow");
 
                 textField = new OverlayPasswordField("123456");
-                overlayable = new DefaultOverlayable(textField, new JideButton(new ClearTextAction(textField)),
-                                                     SwingConstants.EAST);
-                DocumentHelper.install(textField, overlayable);
+                overlayable = TextFieldUtils.addClearButton(textField);
                 frame.add(new JLabel("RTL password field"));
                 frame.add(overlayable);
 
                 textField = new OverlayPasswordField();
-                overlayable = new DefaultOverlayable(textField, new JideButton(new ClearTextAction(textField)),
-                                                     SwingConstants.WEST);
                 textField.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
-                DocumentHelper.install(textField, overlayable);
+                overlayable = TextFieldUtils.addClearButton(textField);
                 frame.add(new JLabel("LTR password field"));
                 frame.add(overlayable);
 
