@@ -7,7 +7,7 @@
 	</information>
 	<update check="background" policy="prompt-update" />
 	<security>
-	   <all-permissions />
+		<all-permissions />
 	</security>
 	<resources os="Mac">
 		<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se" />
